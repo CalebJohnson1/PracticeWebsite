@@ -163,5 +163,3 @@ switch(5) {
 }
 
 console.log(text);
-
-// 
