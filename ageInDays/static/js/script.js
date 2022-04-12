@@ -14,9 +14,21 @@ function reset() {
     document.getElementById('ageInDays').remove();
 }
 
+// Challenge 2
 function generateCat() {
     var image = document.createElement('img');
     var div = document.getElementById('flex-cat-gen');
     image.src = "http://thecatapi.com/api/images/get?format=src&type=gif&size=small";
     div.appendChild(image);
+}
+
+// Challenge 3: Rock, Paper, Scissors
+function rpsGame(yourChoice) {
+    console.log(yourChoice);
+    var humanChoice, botChoice;
+    humanChoice = yourChoice.id;
+    botChoice;
+    results = decideWinner(humanChoice, botChoice);
+    message = finalMessage(results);
+    rpsFrontEnd(yourChoice.id, botChoice, message);
 }
