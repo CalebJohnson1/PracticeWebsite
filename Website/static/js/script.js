@@ -139,3 +139,6 @@ function randomColors() {
         all_buttons[i].classList.add(choices[randomNumber]);
     }
 }
+
+// Challenge 5: Black Jack
+
