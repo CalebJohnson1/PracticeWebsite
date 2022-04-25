@@ -141,4 +141,8 @@ function randomColors() {
 }
 
 // Challenge 5: Black Jack
+document.querySelector('#blackjack-hit-button').addEventListener('click', blackjackHit);
 
+function blackjackHit() {
+    alert('Ouch, you just clicked me!');
+}
